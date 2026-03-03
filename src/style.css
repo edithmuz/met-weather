@@ -40,6 +40,7 @@ main {
   border: none;
   border-radius: 6px;
   color: white;
+  font-size: 15px;
 }
 
 .weather-app-data {
@@ -95,12 +96,14 @@ main {
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
   line-height: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .weather-forecast-icon {
-  font-size: 38px;
-  text-align: center;
+  width: 85px;
+  line-height: 90px;
+  display: block;
+  margin: 0 auto;
 }
 
 .weather-forecast-temperatures {
